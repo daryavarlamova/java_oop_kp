@@ -9,10 +9,27 @@ public class Post {
     private Reposts reposts;
     private Views views;
     private Geo geo;
+    private Donut donut;
     private int ownerId;
     private boolean canPin;
     private boolean canDelete;
     private boolean canEdit;
+
+    public Geo getGeo() {
+        return geo;
+    }
+
+    public void setGeo(Geo geo) {
+        this.geo = geo;
+    }
+
+    public Donut getDonut() {
+        return donut;
+    }
+
+    public void setDonut(Donut donut) {
+        this.donut = donut;
+    }
 
     public int getOwnerId() {
         return ownerId;

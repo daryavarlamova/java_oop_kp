@@ -13,7 +13,6 @@ public class Likes {
         this.userLikes = userLikes;
     }
 
-
     public int getCount() {
         return count;
     }
